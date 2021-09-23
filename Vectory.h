@@ -28,11 +28,11 @@ public:
 
     typedef T* iterator;
 
-    iterator begin(){
+    iterator begin() {
         return data;
     }
 
-    iterator end(){
+    iterator end() {
         return data + cap;
     }
 };
@@ -110,7 +110,7 @@ int Vectory<T>::getSize() const {
     return cap;
 }
 template<typename T>
-int Vectory<T>::getArraySize(){
+int Vectory<T>::getArraySize() {
     return size;
 }
 

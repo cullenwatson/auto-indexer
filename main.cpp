@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
     MyClass obj1(5,3);
     MyClass obj2(4,8);
     MyClass obj3(1,2);
-    
+
     test2.push_back(obj1);
     test2.push_back(obj2);
     test2.push_back(obj3);

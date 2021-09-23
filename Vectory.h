@@ -9,16 +9,32 @@ class Vectory
     int size;
     int cap;
 public:
+    // rule of three
     Vectory();
     Vectory(const Vectory<T>&);
     Vectory<T>& operator=(const Vectory<T>&);
     ~Vectory();
 
+    // resize vector
     void push_back(const T&);
+    void pop_back();
+    void resize();
+
+    // get elements & properties of vector
     const T& operator[](int);
     const T& at(int);
-    void resize();
     int getSize();
+    int getArraySize();
+
+    typedef T* iterator;
+
+    iterator begin(){
+        return data;
+    }
+
+    iterator end(){
+        return data + cap;
+    }
 };
 
 
@@ -60,7 +76,12 @@ template<typename T>
 void Vectory<T>::push_back(const T& val) {
     if (size == cap)
         resize();
-    data[size++] = val;
+    data[cap++] = val;
+}
+template<typename T>
+void Vectory<T>::pop_back() {
+    if (cap > 0)
+        cap--;
 }
 template<typename T>
 const T& Vectory<T>::operator[](int loc) {
@@ -87,6 +108,10 @@ void Vectory<T>::resize() {
 template<typename T>
 int Vectory<T>::getSize() {
     return cap;
+}
+template<typename T>
+int Vectory<T>::getArraySize(){
+    return size;
 }
 
 #endif

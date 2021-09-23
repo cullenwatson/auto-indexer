@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <algorithm>
 #include"Vectory.h"
 /**
  * catch_setup.h and catch_setup.cpp contain the #define directive for
@@ -20,14 +21,23 @@ int main(int argc, char** argv) {
         runCatchTests();
     }*/
     //else {
-    Vectory<int> hello;
-    hello.push_back(1);
-    hello.push_back(2);
-    hello.push_back(3);
+    Vectory<int>test;
+    test.push_back(2);
+    test.push_back(1);
+    test.push_back(3);
+
+    //typedef Vectory<int>::iterator iteratorArray;
+
+    sort(test.begin(),test.end());
 
 
-    for(int i=0;i<hello.getSize();i++)
-        cout<<hello[i]<<endl;
+    for(int i=0;i<test.getSize();i++)
+        cout<<test.at(i)<<endl;
+
+    /*int sum = 0;
+    for (iteratorArray p = test.begin(); p != test.end(); ++p)
+        sum += *p;
+    std::cout << sum;*/
     //}
     return 0;
 }

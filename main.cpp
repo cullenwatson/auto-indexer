@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
         cout<<test[i]<<endl;
 
 
-    // using a class, my vector doesn't work. help
+    // using a class, my vector doesn't work. help.
     Vectory<MyClass> test2;
     MyClass obj1(5,3);
     MyClass obj2(4,8);

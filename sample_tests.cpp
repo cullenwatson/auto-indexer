@@ -1,7 +1,3 @@
-//
-// Created by MARK FONTENOT on 9/14/21.
-//
-
 /**
  * This file contains some simple tests.
  *

@@ -1,30 +1,42 @@
-/**
- * Fall 2021 PA 02 Template Repo.
- */
-
 #include <iostream>
 #include <fstream>
-
-/**
- * catch_setup.h and catch_setup.cpp contain the #define directive for
- * the CATCH2 framework.  You can see in main below how I'm calling the
- * runCatchTests() function which is declared in this header.
- *
- * On average, this should reduce the build time for your project on your local
- * machine.
- */
 #include "catch_setup.h"
-
+#include"Vectory.h"
+class MyClass{
+    int a, b;
+public:
+    MyClass(int A, int B){
+        a = A;
+        b = B;
+    }
+};
 int main(int argc, char** argv) {
-    if(argc == 1) {
+    /*if(argc == 1) {
         runCatchTests();
-    }
-    else {
-        std::cout << "Hello, 2341 students!" << std::endl;
-        std::cout << "Attempting to open and write to " << argv[2] << std::endl;
-        std::ofstream o(argv[2]);
-        o << "Writing to output file." << std::endl;
-        o.close();
-    }
+    }*/
+    //else {
+
+    // this section works
+    Vectory<int> test;
+    test.push_back(1);
+    test.push_back(2);
+    test.push_back(3);
+
+    for(int i=0;i<test.getSize();i++)
+        cout<<test[i]<<endl;
+
+
+    // using a class, my vector doesn't work. help
+    Vectory<MyClass> test2;
+    MyClass obj1(5,3);
+    MyClass obj2(4,8);
+    MyClass obj3(1,2);
+    
+    test2.push_back(obj1);
+    test2.push_back(obj2);
+    test2.push_back(obj3);
+    /*for(int i=0;i<test.getSize();i++)
+        cout<<test[i]<<endl;*/
+    //}
     return 0;
 }

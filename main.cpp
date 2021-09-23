@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <fstream>
-
+#include"Vectory.h"
 /**
  * catch_setup.h and catch_setup.cpp contain the #define directive for
  * the CATCH2 framework.  You can see in main below how I'm calling the
@@ -16,15 +16,18 @@
 #include "catch_setup.h"
 
 int main(int argc, char** argv) {
-    if(argc == 1) {
+    /*if(argc == 1) {
         runCatchTests();
-    }
-    else {
-        std::cout << "Hello, 2341 students!" << std::endl;
-        std::cout << "Attempting to open and write to " << argv[2] << std::endl;
-        std::ofstream o(argv[2]);
-        o << "Writing to output file." << std::endl;
-        o.close();
-    }
+    }*/
+    //else {
+    Vectory<int> hello;
+    hello.push_back(1);
+    hello.push_back(2);
+    hello.push_back(3);
+
+
+    for(int i=0;i<hello.getSize();i++)
+        cout<<hello[i]<<endl;
+    //}
     return 0;
 }

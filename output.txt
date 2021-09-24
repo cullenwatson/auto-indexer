@@ -1,2 +1,53 @@
+["]
+"people from outside,": 2
+[A]
+alaska: 12
+alaska dawn: 1
+alaska range: 2
+alex: 123
+alex's: 2
+alex?: 1
+anchorage: 37
+[D]
+denali: 2
+denali national park: 2
+denali park: 2
+[F]
+fairbanks: 12
+ferdie swanson: 6
+ford: 1
+[G]
+gallien: 123
+george parks highway;: 2
+gordon: 6
+gordon samel: 6
+[H]
+hitchhiker standing in the snow beside the road,: 1
+[J]
+jack london: 2
+jacked-up eighty-two dodge four by four with thirty-eight-inch rubber: 6
+jim gallien: 1
+[K]
+ken thompson: 6
+[L]
+last frontier: 2
+[M]
+mexico: 2
+mt. mckinley: 2
+[N]
+nenana river: 2
+[R]
+remington semiautomatic: 1
+[S]
+samel: 6
+samel and swanson  in their trucks: 7
+south dakota: 2
+stampede trail: 26
+swanson: 6
 [T]
-this is a smple outdjklsfajkdkjfdskljlfdsjjklfdjkldfsjkjfsdklljkdfskjlfdsjkljklfdsjkldfsjkdfjlksjkldfsljkfdsjklljkfdsajklajdlksfjkldsaljkdfas: 1
+tanana river: 2
+teklanika river: 6
+thompson: 67
+thompson, samel, and swanson: 6
+[W]
+was where he intended to go.  gallien thought the hitchhiker's: 3

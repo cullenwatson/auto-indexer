@@ -37,7 +37,7 @@ ostream &operator<<(ostream & os, const Keyphrase & keyphrase) {
     for(int i=0; i<keyphrase.Page.getSize();i++){
         os<<keyphrase.Page[i];
         if(i!=keyphrase.Page.getSize()-1)
-            cout<<", ";
+            os<<", ";
     }
     return os;
 }

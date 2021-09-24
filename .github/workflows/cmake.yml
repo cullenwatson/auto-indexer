@@ -56,5 +56,5 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: project_output
-        path: ${{github.workspace}}/build
+        path: ${{runner.workspace}}/build/artifacts
       

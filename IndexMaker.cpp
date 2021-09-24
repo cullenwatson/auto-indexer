@@ -101,6 +101,6 @@ void IndexMaker::outputIndex(char outputFile[]){
 
         output<<*it<<endl;
 
-        output<<"hi"<<endl;
+        cout<<"hi"<<endl;
     }
 }

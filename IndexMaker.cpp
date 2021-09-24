@@ -9,7 +9,7 @@ void IndexMaker::parseFile(char input[]){
     // create variables to store different inputs from file
     ifstream file(input);
     char letter;
-    char outerphrase[500], innerphrase[500], page[30];
+    char outerphrase[1000], innerphrase[1000], page[30];
     int counter=0;
     Stringy temp, temp2, temp3;
 

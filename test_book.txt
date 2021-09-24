@@ -1,21 +1,94 @@
 <1>
-
-// This is a [comment]. Just kidding! Your silly old program will read this in anyways [:)]
-
-<-1924812112>
-
-// Woah! -1924812112 doesn't come after 1!!! This line isn't a [comment] either by the way
-Well whatever, it doesn't matter [ig]...
-
-Wait... what if I did something like [[this]]? I feel like this is kinda illegal...
-By the way this *should* read in "this" twice, but only have one page number for both!
-Hopefully your program did that [:)]
-
-[What [are you] doing [to] my [program right now]]? Haha oops sowwy ._.
-
+[Jim [Gallien]] had driven four miles out of [Fairbanks] when he spotted the [hitchhiker
+standing in the snow beside the road,] thumb raised high, shivering in the gray [[Alaska]
+dawn]. He didn't appear to be very old: eighteen, maybe nineteen at most. A rifle protruded from the young man's backpack, but he looked friendly enough; a hitchhiker with
+a [Remington semiautomatic] isn't the sort of thing that gives motorists pause in the fortyninth state. [Gallien] steered his truck onto the shoulder and told the kid to climb in.
+The hitchhiker swung his pack into the bed of the [Ford] and introduced himself as
+[Alex]. "[Alex?]" [Gallien] responded, fishing for a last name.
+"Just [Alex]," the young man replied, pointedly rejecting the bait. Five feet seven or
+eight with a wiry build, he claimed to be twenty-four years old and said he was from
 <2>
-
-Whew, back to page 2! I thought this would never happen!!! [:)]
-
-[comment] [comment] [comment] [comment] [comment] [comment] [comment]
-If your output file says 1, -1924812112, 2, 2, 2, 2, 2, 2, 2...
+[South Dakota]. He explained that he wanted a ride as far as the edge of [[Denali] National
+Park], where he intended to walk deep into the bush and "live off the land for a few
+months."
+[Gallien], a union electrician, was on his way to Anchorage, 240 miles beyond [Denali]
+on the [George Parks Highway;] he told Alex he'd drop him off wherever he wanted.
+Alex's backpack looked as though it weighed only twenty-five or thirty pounds, which
+struck [Gallien]—an accomplished hunter and woodsman—as an improbably light load for
+a stay of several months in the back-country, especially so early in the spring. "He wasn't
+carrying anywhere near as much food and gear as you'd expect a guy to be carrying for
+that kind of trip," [Gallien] recalls.
+The sun came up. As they rolled down from the forested ridges above the [Tanana
+River], Alex gazed across the expanse of windswept muskeg stretching to the south.
+[Gallien] wondered whether he'd picked up one of those crackpots from the lower fortyeight who come north to live out ill-considered [Jack London] fantasies. [Alaska] has longbeen a magnet for dreamers and misfits, people who think the unsullied enormity of the
+[Last Frontier] will patch all the holes in their lives. The bush is an unforgiving place,
+however, that cares nothing for hope or longing.
+["People from Outside,"] reports [Gallien] in a slow, sonorous drawl, "they'll pick up a
+copy of [Alaska] magazine, thumb through it, get to thinkin' 'Hey, I'm goin' to get on up
+there, live off the land, go claim me a piece of the good life.' But when they get here and
+actually head out into the bush—well, it isn't like the magazines make it out to be. The
+rivers are big and fast. The mosquitoes eat you alive. Most places, there aren't a lot of
+animals to hunt. Livin' in the bush isn't no picnic."
+It was a two-hour drive from [Fairbanks] to the edge of [[Denali] Park]. The more they
+talked, the less [Alex] struck [Gallien] as a nutcase. He was congenial and seemed welleducated. He peppered [Gallien] with thoughtful questions about the kind of small game
+that live in the country, the kinds of berries he could eat—"that kind of thing."
+Still, [Gallien] was concerned. [Alex] admitted that the only food in his pack was a tenpound bag of rice. His gear seemed exceedingly minimal for the harsh conditions of the
+interior, which in April still lay buried under the winter snowpack. [Alex's] cheap leather
+hiking boots were neither waterproof nor well insulated. His rifle was only .22 caliber, a
+bore too small to rely on if he expected to kill large animals like moose and caribou,
+which he would have to eat if he hoped to remain very long in the country. He had no ax,
+no bug dope, no snowshoes, no compass. The only navigational aid in his possession was
+a tattered state road map he'd scrounged at a gas station.
+A hundred miles out of [Fairbanks] the highway begins to climb into the foothills of the
+[[Alaska] Range]. As the truck lurched over a bridge across the [Nenana River], [Alex] looked
+down at the swift current and remarked that he was afraid of the water. "A year ago down
+in [Mexico]," he told [Gallien], "I was out on the ocean in a canoe, and I almost drowned
+when a storm came up."
+A little later [Alex] pulled out his crude map and pointed to a dashed red line thatintersected the road near the coal-mining town of Healy. It represented a route called the
+[Stampede Trail]. Seldom traveled, it isn't even marked on most road maps of [Alaska]. On
+Alex's map, nevertheless, the broken line meandered west from the Parks Highway for
+forty miles or so before petering out in the middle of trackless wilderness north of [Mt.
+McKinley]. This, Alex announced to Gallien, [was where he intended to go.
+<3>
+[Gallien] thought the hitchhiker's] scheme was foolhardy and tried repeatedly to
+dissuade him: "I said the hunting wasn't easy where he was going, that he could go for
+days without killing any game. When that didn't work, I tried to scare him with bear stories. I told him that a twenty-two probably wouldn't do anything to a grizzly except make
+him mad. [Alex] didn't seem too worried. Til climb a tree' is all he said. So I explained that
+trees don't grow real big in that part of the state, that a bear could knock down one of
+them skinny little black spruce without even trying. But he wouldn't give an inch. He had
+an answer for everything I threw at him."
+[Gallien] offered to drive [Alex] all the way to [Anchorage], buy him some decent gear,
+and then drive him back to wherever he wanted to go.
+"No, thanks anyway," [Alex] replied, "I'll be fine with what I've got."
+[Gallien] asked whether he had a hunting license.
+<6>
+[Ken Thompson], the owner of an Anchorage auto-body shop, [Gordon Samel], his
+employee, and their friend [Ferdie Swanson], a construction worker, set out for the bus on
+September 6, 1992, stalking moose. It isn't an easy place to reach. About ten miles past
+the end of the improved road the [Stampede Trail] crosses the [Teklanika River], a fast, icy
+stream whose waters are opaque with glacial till. The trail comes down to the riverbank
+just upstream from a narrow gorge, through which the Teklanika surges in a boil of white
+water. The prospect of fording this /affe-colored torrent discourages most people from
+traveling any farther.
+[[Thompson], [Samel], and [Swanson]], however, are contumacious Alaskans with a special
+fondness for driving motor vehicles where motor vehicles aren't really designed to be
+driven. Upon arriving at the Teklanika, they scouted the banks until they located a wide,
+braided section with relatively shallow channels, and then they steered headlong into the
+flood.
+"I went first," [Thompson] says. "The river was probably seventy-five feet across and
+real swift. My rig is a [jacked-up eighty-two Dodge four by four with thirty-eight-inch
+rubber] on it, and the water was right up to the hood. At one point I didn't think I'd get
+across. [Gordon] has a eight-thousand-pound winch on the front of his rig; I had him
+follow right behind so he could pull me out if I went out of sight."
+Thompson made it to the far bank without incident, followed by [[Samel] and [Swanson]
+<7>
+in their trucks]. In the beds of two of the pickups were light-weight all-terrain vehicles: a
+three-wheeler and a four-wheeler. They parked the big rigs on a gravel bar, unloaded the
+ATVs, and continued toward the bus in the smaller, more maneuverable machines.
+A few hundred yards beyond the river the trail disappeared into a series of chest-deep
+beaver ponds. Undeterred, the three Alaskans dynamited the offending stick dams and
+drained the ponds. Then they motored onward, up a rocky creek bed and through dense
+alder thickets. It was late afternoon by the time they finally arrived at the bus. When they
+got there, according to [Thompson], they found "a guy and a girl from [Anchorage] standing
+fifty feet away, looking kinda spooked."
+<-1>

@@ -8,7 +8,10 @@ int main(int argc, char** argv) {
         runCatchTests();
     }
     else {
+        // parse file
         IndexMaker::parseFile(argv[1]);
+
+        // output the results
         IndexMaker::outputIndex(argv[2]);
     }
     return 0;

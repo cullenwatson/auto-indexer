@@ -169,4 +169,12 @@ TEST_CASE("TESTING VECTOR CLASS", "[vector]") {
         myVector.resize();
         REQUIRE(myVector.getArraySize() == 80);
     }
+    SECTION("REMOVE FUNCTION"){
+        myVector.remove(2);
+        REQUIRE(myVector.getSize() == 2);
+        myVector.remove(0);
+        REQUIRE(myVector[0] == Test(5));
+        myVector.remove(0);
+        REQUIRE(myVector.getSize() == 0);
+    }
 };

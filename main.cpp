@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
     }
     else {
         IndexMaker::parseFile(argv[1]);
-        IndexMaker::outputIndex();
+        IndexMaker::outputIndex(argv[2]);
     }
     return 0;
 }

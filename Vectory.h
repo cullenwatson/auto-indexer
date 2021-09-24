@@ -18,6 +18,7 @@ public:
     // resize vector
     void push_back(const T&);
     void pop_back();
+    void remove(int);
     void resize();
 
     // get elements & properties of vector
@@ -134,5 +135,37 @@ template<typename T>
 int Vectory<T>::getArraySize(){
     return size;
 }
+template<typename T>
+void Vectory<T>::remove(int index) {
+    //decrease user size
+    cap--;
 
+    //new array
+    T *tempData = new T[size];
+
+    //index counter for array
+    int j = 0;
+
+    //transfer data
+    for (int i = 0; i < cap; i++) {
+        //transfer all elements except at index
+        if (i != index) {
+            tempData[i] = data[j];
+        }
+        else {
+            j++;
+            tempData[i] = data[j];
+        }
+        j++;
+    }
+        //deallocate old array
+        delete[] data;
+        data = new T[size];
+        //transfer back to data array
+        for (int i = 0; i < size; i++){
+            data[i] = tempData[i];
+        }
+        //deallocate temp array
+        delete[] tempData;
+}
 #endif

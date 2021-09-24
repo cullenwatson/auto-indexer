@@ -87,7 +87,8 @@ void IndexMaker::addKeyphrase(Stringy temp, Stringy temp2, char page[]){
         // if it doesn't exist, add the keyphrase and page to list
         keyphrases.push_back(Keyphrase(page,temp2));
 }
-void IndexMaker::outputIndex(){
+void IndexMaker::outputIndex(char outputFile[]){
+    ofstream output(outputFile);
     // sort keyphrases alphabetically
     sort(keyphrases.begin(),keyphrases.end());
 
@@ -95,9 +96,9 @@ void IndexMaker::outputIndex(){
     char firstLetter;
     for(auto it = keyphrases.begin(); it!=keyphrases.end();it++){
         if(firstLetter!=it->getFirstLetter())
-            cout<<"["<<it->getFirstLetter()<<"]"<<endl;
+            output<<"["<<it->getFirstLetter()<<"]"<<endl;
         firstLetter = it->getFirstLetter();
 
-        cout<<*it<<endl;
+        output<<*it<<endl;
     }
 }

@@ -12,9 +12,9 @@ env:
   #   add_executable command.
   TEST_EXE: 21f_PA02
   # the name of any input files (use relative path)
-  INPUT_FILE: data/test_book.txt
+  INPUT_FILE: test_book.txt
   # the name of any output files (use relative paths)
-  OUTPUT_FILE: data/output.txt
+  OUTPUT_FILE: output.txt
 
 
 jobs:

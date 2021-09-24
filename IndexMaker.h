@@ -15,7 +15,7 @@ class IndexMaker {
 public:
     static void parseFile(char input[]);
     static void addKeyphrase(Stringy temp, Stringy temp2, char page[]);
-    static void outputIndex();
+    static void outputIndex(char outputFile[]);
 };
 
 

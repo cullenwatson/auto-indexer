@@ -100,5 +100,7 @@ void IndexMaker::outputIndex(char outputFile[]){
         firstLetter = it->getFirstLetter();
 
         output<<*it<<endl;
+
+        output<<"hi"<<endl;
     }
 }

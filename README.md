@@ -1,4 +1,4 @@
-**Auto Indexer*
+<h2>Auto Indexer</h2>
 
 Generates an index for keywords in a text file
 

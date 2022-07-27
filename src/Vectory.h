@@ -67,7 +67,7 @@ Vectory<T>& Vectory<T>::operator=(const Vectory<T>& copy) {
         size = copy.size;
         data = new T[size];
 
-        // copy the data
+        // copy the input
         for (int i = 0; i < size; i++)
             data[i] = copy.data[i];
 
@@ -116,11 +116,11 @@ template<typename T>
 void Vectory<T>::resize() {
     // makes new array twice the size
     T* temp = new T[size * 2];
-    // assigns the data from old to new array
+    // assigns the input from old to new array
     for (int i = 0; i < size; i++)
         temp[i] = data[i];
 
-    // update size and delete old data
+    // update size and delete old input
     size *= 2;
     delete[]data;
     data = temp;
@@ -146,7 +146,7 @@ void Vectory<T>::remove(int index) {
     //index counter for array
     int j = 0;
 
-    //transfer data
+    //transfer input
     for (int i = 0; i < cap; i++) {
         //transfer all elements except at index
         if (i != index) {
@@ -161,7 +161,7 @@ void Vectory<T>::remove(int index) {
         //deallocate old array
         delete[] data;
         data = new T[size];
-        //transfer back to data array
+        //transfer back to input array
         for (int i = 0; i < size; i++){
             data[i] = tempData[i];
         }

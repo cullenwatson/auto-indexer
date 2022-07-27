@@ -50,8 +50,8 @@ jobs:
       run: ${{github.workspace}}/build/${{env.TEST_EXE}} ${{env.INPUT_FILE}} ${{env.OUTPUT_FILE}}
 
     - name: Upload output files to GitHub so they can be reviewed
-      # This step zips up the data folder and uploads it to Github for you to review.
-      # Note that the sample input will be included as well.  Anything in the data folder will be
+      # This step zips up the input folder and uploads it to Github for you to review.
+      # Note that the sample input will be included as well.  Anything in the input folder will be
       # zipped.
       uses: actions/upload-artifact@v2
       with:

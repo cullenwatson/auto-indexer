@@ -38,7 +38,7 @@ To use the default test file, type:
 
 ```auto_indexer ../data/input/test_book.txt ../output/index.txt```
 
-The index will be located in ```output/index.txt``` within the project folder
+The generated index will be located in ```output/index.txt``` within the project folder
 
 
 

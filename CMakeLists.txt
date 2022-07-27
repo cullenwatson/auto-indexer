@@ -1,8 +1,5 @@
-cmake_minimum_required(VERSION 3.14)
-project(21f_PA02)
+cmake_minimum_required(VERSION 3.18)
 
-set(CMAKE_CXX_STANDARD 14)
+project(auto_indexer)
 
-configure_file(data/test_book.txt data/test_book.txt)
-
-add_executable(21f_PA02 src/main.cpp src/Vectory.h src/Stringy.cpp src/Stringy.h src/Keyphrase.cpp src/Keyphrase.h src/IndexMaker.cpp src/IndexMaker.h)
+add_executable(auto_indexer src/main.cpp src/Vectory.h src/Stringy.cpp src/Stringy.h src/Keyphrase.cpp src/Keyphrase.h src/IndexMaker.cpp src/IndexMaker.h)

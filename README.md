@@ -10,7 +10,11 @@ Generates an keyword index based off of bracketed keywords and numbered pages in
 
 A correctly formatted input file is located in ```input/test_book.txt``` along with the resulting index file: ```output/results.txt```
 
-## How to Run (using MinGW on Windows)
+## Binary Link
+
+Download the exe [here](https://github.com/cullenwatson/auto-indexer/releases/tag/v0.1)
+
+## How to Compile and Run (using MinGW on Windows)
 
 Create a build folder in the project directory and navigate to it
 

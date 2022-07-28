@@ -36,7 +36,7 @@ The program takes two command line args:
 
 To use the default test file, type:
 
-```auto_indexer ../data/input/test_book.txt ../output/index.txt```
+```auto_indexer ../input/test_book.txt ../output/index.txt```
 
 The generated index will be located in ```output/index.txt``` within the project folder
 

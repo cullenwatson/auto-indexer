@@ -16,6 +16,8 @@ Download the exe [here](https://github.com/cullenwatson/auto-indexer/releases/ta
 
 ## How to Compile and Run (using MinGW on Windows)
 
+[Video Demo](https://youtu.be/CTTfShIPI28)
+
 Create a build folder in the project directory and navigate to it
 
 Run the following command in the build folder

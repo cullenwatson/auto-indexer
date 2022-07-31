@@ -32,6 +32,7 @@ bool Keyphrase::operator<(const Keyphrase &obj) const {
 
 ostream &operator<<(ostream & os, const Keyphrase & keyphrase) {
 
+
     os<<keyphrase.Phrase<<": ";
 
     for(int i=0; i<keyphrase.Page.getSize();i++){
@@ -45,5 +46,8 @@ ostream &operator<<(ostream & os, const Keyphrase & keyphrase) {
 char Keyphrase::getFirstLetter() {
     Stringy temp = Phrase;
     temp.toUpper();
+
+     if(temp[0] == 16 || temp[0] == 4)
+        return temp[2];
     return temp[0];
 }

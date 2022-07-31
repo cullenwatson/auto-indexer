@@ -15,11 +15,17 @@ void IndexMaker::parseFile(char input[]){
 
     // open file
     if (file.is_open()) {
+
         // loop until end of file
+
+
         while (file.get(letter)) {
+
+
             // change new lines to spaces
             if(letter=='\n')
                 letter=' ';
+
             // check if it's the end of file
             if(temp=="-1")
                 break;
@@ -47,12 +53,21 @@ void IndexMaker::parseFile(char input[]){
                     temp2 = outerphrase;
                     temp2.toLower();
 
+                    // remove special character
+                    char a = 16;
+                    char b = 4;
+                    temp2.removeChar(a);
+                    temp2.removeChar(b);
+
                     // add  inner level keyphrase/page to list if it doesn't exist
                     addKeyphrase(temp, temp2, page);
 
                     outerphrase[0] = '\0';
                     // continue adding letters to keyphrase while counter is 1
-                } else if (counter == 1) {
+                }
+
+                else if (counter == 1) {
+
                     strncat(outerphrase, &letter, 1);
                 }
                 // once close bracket is reached, add outer level keyphrase to list
@@ -61,6 +76,11 @@ void IndexMaker::parseFile(char input[]){
                     temp3 = innerphrase;
                     temp3.toLower();
 
+                    // remove special character
+                    char a = 16;
+                    char b = 4;
+                    temp3.removeChar(a);
+                    temp3.removeChar(b);
                     addKeyphrase(temp, temp3, page);
 
                     innerphrase[0] = '\0';
